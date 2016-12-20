@@ -1,7 +1,6 @@
 # Cute shell shortcuts
 alias ls='ls --sort=extension --color=auto'
-alias ll='ls -lh'
-alias lal='ls -alh'
+alias ll='ls -alh'
 alias la='ls -A'
 alias pms='sudo pm-suspend'
 alias psg='ps -A | grep'
