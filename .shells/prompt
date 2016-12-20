@@ -23,7 +23,7 @@ function pre_prompt {
         datenow=$(date "+%a, %d %b %y")
         let promptsize=$(echo -n "┌(${PWD})($user@$host ddd., DD mmm YY)┐" \
                 | wc -c | tr -d " ")
-        let fillsize=${COLUMNS}-${promptsize}
+        let fillsize=${COLUMNS}-${promptsize}-7
         fill=""
         while [ "$fillsize" -gt "0" ] 
             do 
