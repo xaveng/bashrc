@@ -16,12 +16,12 @@ export NICKNAME="xaveng"
 
 # Distribute bashrc into smaller, more specific files
 
-source .shells/defaults
-source .shells/functions
-source .shells/exports
-source .shells/alias
-source .shells/prompt   # Fancy prompt with time and current working dir
-source .shells/git      # Conveniences - Display current branch etc
+source ~/.shells/defaults
+source ~/.shells/functions
+source ~/.shells/exports
+source ~/.shells/alias
+source ~/.shells/prompt   # Fancy prompt with time and current working dir
+source ~/.shells/git      # Conveniences - Display current branch etc
 
 # Welcome message
 echo -ne "Good Morning, $NICKNAME! It's "; date '+%A, %B %-d %Y'
