@@ -48,3 +48,6 @@ alias scope='cscope -CR -p10'
 
 # Quickly load bashrc
 alias gogo='source ~/.bashrc'
+
+#json parser
+alias json='python -m json.tool'
