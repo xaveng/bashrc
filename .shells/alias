@@ -49,5 +49,10 @@ alias scope='cscope -CR -p10'
 # Quickly load bashrc
 alias gogo='source ~/.bashrc'
 
-#json parser
+# json parser
 alias json='python -m json.tool'
+
+# power managements
+alias susp='sudo pm-suspend'
+alias hibe='sudo pm-hibernate'
+
