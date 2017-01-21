@@ -42,7 +42,6 @@ PROMPT_COMMAND=pre_prompt
 
 case "$TERM" in
 xterm*)
-    echo hereereere
     PS1="$bblue┌─($orange\u@\h \$(date \"+%a, %d %b %y\")$bblue)─\${fill}─($orange\$newPWD\
         $bblue)─┐\n$bblue└─($orange\$(date \"+%H:%M\") $(parse_git_branch) \$$bblue)─>$white "
     ;;
