@@ -1,0 +1,11 @@
+#!/bin/sh
+
+INVERTED=$(xrandr -q | grep eDP1 | cut -f5 -d' ')
+
+if [ "$INVERTED" != "inverted" ]; then
+	xrandr --output eDP1 --rotate inverted
+	echo "yes"
+else
+	xrandr --output eDP1 --rotate normal
+	echo "no"
+fi
