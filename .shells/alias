@@ -56,3 +56,6 @@ alias json='python -m json.tool'
 alias susp='sudo pm-suspend'
 alias hibe='sudo pm-hibernate'
 
+# update and upgrade
+alias update='sudo apt update && sudo apt upgrade -y && sudo apt autoremove -y'
+
