@@ -1,7 +1,5 @@
 #!/bin/bash 
 
-source /etc/bash_completion.d/git-prompt
-
 # Very useful for stash handling
 function show-stash() 
 {

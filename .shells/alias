@@ -1,5 +1,5 @@
 # Cute shell shortcuts
-alias ls='ls --sort=extension --color=auto'
+alias ls='ls -G'
 alias ll='ls -alh'
 alias la='ls -A'
 alias pms='sudo pm-suspend'
@@ -8,6 +8,7 @@ alias se='sudo gvim'
 alias e='gvim'
 alias smi='sudo make install'
 alias l='ls -CF'
+alias vi='vim'
 
 # Cool colors for man pages
 alias man="TERMINFO=~/.terminfo TERM=mostlike LESS=C PAGER=less man"
