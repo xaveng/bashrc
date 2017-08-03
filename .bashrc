@@ -27,13 +27,8 @@ source ~/.shells/git      # Conveniences - Display current branch etc
 echo -ne "Good Morning, $NICKNAME! It's "; date '+%A, %B %-d %Y'
 echo -e "And now your moment of Zen:"; fortune
 echo
-# echo "Hardware Information:"
-# sensors  # Needs: 'sudo apt-get install lm-sensors'
-uptime
-# lsscsi   # Needs: 'sudo apt-get install lsscsi'
-# free -m
-
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-
+echo "Hardware Information:"
+sensors  # Needs: 'sudo apt-get install lm-sensors'
+uptime   # Needs: 'sudo apt-get install lsscsi'
+lsscsi
+free -m
